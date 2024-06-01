@@ -1,0 +1,318 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+\cvfirstname{Jesús}
+
+\cvlastname{BUJALANCE MARTIN}
+\profilepic{./images/PP.jpg} % Profile picture
+
+ % Your name
+\cvjobtitle{PhD candidate - engineering} % Job title/career
+% \cvjobdate{\textit{January 2020}}
+
+
+\cvdate{29 April 1996} % Date of birth
+\cvaddress{94110 Arcueil, France} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{(+33) 6 86 83 06 77} % Phone number
+\cvmail{jesus.bujalance\_martin @mines-paristech.fr} % Email address
+\cvnation{Spanish}
+\cvin{www.linkedin.com/in/ \newline jesus-bujalance-martin}
+%\cvgithub{www.github.com/ \newline telejesus2}
+\cvcar{European driving \newline licence B}
+\cvwebsite{www.linkedin.com/in/ \newline jesus-bujalance-martin}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 LANGUAGES
+%----------------------------------------------------------------------------------------
+
+
+\languagestextsingle{{Spanish/fluent},{French/fluent}}
+
+\languagestext{{English/C2/{113/120 TOEFL IBT (2017)}}, {Mandarin/B2/{292/300 HSK 3 (2018)}}}
+
+%----------------------------------------------------------------------------------------
+%	 HOBBIES
+%----------------------------------------------------------------------------------------
+
+\intereststext{{Sports/basketball, judo}, 
+{Music/guitar, salsa},{Cooking/}, 
+{Android/development}}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+%\skills{{pursuer of rabbits/5.8},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 TITLE
+%----------------------------------------------------------------------------------------
+
+
+{\LARGE\color{black}\cvjobtitle}
+%\begin{flushright}
+% \\
+% {\large\color{black}\cvjobdate}
+%\end{flushright}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\vspace{3mm}
+
+\section{\phantom{j}Experience\phantom{j}}
+
+\vspace{2mm}
+
+\begin{twenty} % Environment for a list with descriptions
+
+    \vspace{2mm}
+
+	\twentyitem{2020-}{PhD: Research Scientist \& Teaching Assistant at Mines Paris - PSL}{}{Deep reinforcement learning and learning from demonstrations \\ for robot manipulators 
+    % 	\\ Advisor: Fabien Moutarde
+    }
+	
+	\twentyitem{Apr-Sep 2019}{Intern at ARMINES Center for Robotics}{Paris}{Deep learning for collaborative robotics: few-shot gesture \\ recognition and continuous motion control}
+	 
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\vspace{3mm}
+
+\section{\phantom{j}Education\phantom{j}}
+
+\vspace{2mm}
+
+\begin{twenty} % Environment for a list with descriptions
+
+    \vspace{2mm}
+
+	\twentyitem{2018-2019}{Paris-Saclay University - ENS Cachan - MSc MVA}{Paris}{
+	 Computer Vision | Image processing | Deep Learning}
+	 
+	 \vspace{2mm}
+	 
+	\twentyitem{Feb-Jul 2018}{Shanghai Jiao Tong University - Semester Exchange}{Shanghai}{Control theory | Mobile Robotics}
+	
+	\vspace{2mm}
+	
+	\twentyitem{2016-2019}{IP Paris - T\'{e}l\'{e}com ParisTech - Engineering cycle}{Paris}{Signal and Image processing | Machine Learning}
+	
+	\twentyitem{2014-2016}{Preparatory classes for engineering schools}{Lyon}{}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 STUDENT PROJECTS
+%----------------------------------------------------------------------------------------
+% \vspace{3mm}
+
+% \section{\phantom{j}Student Projects\phantom{j}}
+
+% \vspace{2mm}
+
+% \begin{twentyshort} % Environment for a list with descriptions
+%     \vspace{2mm}
+% 	\twentyitemshort{2019}{Paper review, implementation: High-Resolution Multi-Scale Neural Texture Synthesis with Spectrum constraints}
+% 	\vspace{2mm}
+% 	\twentyitemshort{2019}{Paper review, implementation: Urban accessibility diagnosis from mobile laser scanning (MLS) data}
+% 	\vspace{2mm}
+% 	\twentyitemshort{2018}{Paper review, implementation: Humanoid Robot Imitation of Human Motion from Instructional Videos}
+% 	\vspace{2mm}
+% 	\twentyitemshort{2018}{Paper review: Montezuma game in Reinforcement Learning. Review of solutions to hard-exploration problems in Deep RL}
+% 	\vspace{2mm}
+% 	\twentyitemshort{2018}{Paper review, implementation: SLIC segmentation for SAR images}
+% 	\twentyitemshort{2017}{GuitarLEDgend: connected guitar to learn how to play}
+% \end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+\vspace{3mm}
+
+\section{\phantom{j}Skills\phantom{j}}
+
+\vspace{2mm}
+
+\begin{twenty} % Environment for a list with descriptions
+	
+	\twentyitemskill{Robotics}{\cvtagg{ROS} \cvtagg{CoppeliaSim} \cvtag{Bullet} \cvtag{OMPL} \cvtag{CloudCompare}}{}{}
+	
+	\twentyitemskill{Deep Learning}{\cvtagg{PyTorch} \cvtag{Scikit-learn} \cvtag{Keras}  \cvtag{JAX} \cvtag{Ray}}{}{}
+	
+	\twentyitemskill{Other tools}{\cvtagg{Git} \cvtagg{Docker} \cvtag{VirtualBox}  \cvtag{GCP} \cvtag{Redis} }{}{}
+	
+	\twentyitemskill{Programming}{\cvtagg{Python} \cvtagg{Linux} \cvtag{C} \cvtag{C++} \cvtag{Java} \cvtag{Matlab} \cvtag{Simulink}}{}{}
+
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\vspace{3mm}
+
+\section{\phantom{j}Publications\phantom{j}}
+
+\vspace{2mm}
+
+\begin{enumerate}
+    \item Jesus Bujalance Martin, Fabien Moutarde. \textbf{Reward Relabelling for combined Reinforcement and Imitation Learning on sparse-reward tasks.} Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2023.
+    \item Dániel Horváth, Jesús Bujalance Martín, Ferenc Gábor Erdős, Zoltán Istenes, Fabien Moutarde. \textbf{HiER: Highlight Experience Replay and Easy2Hard Curriculum Learning for Boosting Off-Policy Reinforcement Learning Agents.}
+    \item Jesus Bujalance Martin, Tao Yu, Fabien Moutarde. \textbf{Pre-trained Image Encoder for Data-Efficient Reinforcement Learning and Sim-to-Real transfer on Robotic-Manipulation tasks.} Workshop on Pre-training Robot Learning at Conference on Robot Learning (CoRL), 2022.
+    \item Jesus Bujalance Martin, Raphaël Chekroun, Fabien Moutarde. \textbf{Learning from demonstrations with SACR2: Soft Actor-Critic with Reward Relabeling.} Deep RL Workshop at Conference on Neural Information Processing Systems (NeurIPS), 2021.
+    \item Jesus Bujalance Martin, Fabien Moutarde. \textbf{Real-time gestural control of robot manipulator through Deep Learning human-pose inference.} International Conference on Computer Vision Systems (ICVS), 2019.
+\end{enumerate}
+
+% \begin{twentyshort} % Environment for a short list with no descriptions
+% 	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+% 	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+% 	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+% 	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+% 	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+% 	\twentyitemshort{<dates>}{<title/description>}
+% \end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+	%\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+	%\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%----------------------------------------------------------------------------------------
+% \vspace{6mm}
+
+% \section{\phantom{j}Teaching Experience\phantom{j}}
+
+% \vspace{2mm}
+
+% \begin{twenty}
+%     \vspace{2mm}
+% 	\twentyitem{2020-2021}{Teaching assistant}{Mines ParisTech}{Introduction to Machine Learning\\ Large-Scale Machine Learning \\ Instructors: Fabien Moutarde and Chloé Azencott}
+% \end{twenty}
+
+% \begin{twenty}
+%     \vspace{2mm}
+% 	\twentyitem{Mar-Apr 2021}{Mentor to two graduate interns}{Mines ParisTech}{Deep Learning for Image Analysis \\ Instructors: Etienne Decencière and David Ryckelynck}
+% \end{twenty}
+
+%%%%% END
+
+% \begin{twenty}
+%     \vspace{2mm}
+% 	\twentyitem{2019', 20'}{Introduction to Machine Learning}{Mines ParisTech}{Teaching assistant \\ Instructors: Fabien Moutarde and Chloé Azencott}
+% \end{twenty}
+
+% \begin{twenty}
+%     \vspace{2mm}
+% 	\twentyitem{2021}{Large-Scale Machine Learning}{Mines ParisTech}{Teaching assistant \\ Instructors: Fabien Moutarde and Chloé Azencott}
+% \end{twenty}
+
+% \begin{twenty}
+%     \vspace{2mm}
+% 	\twentyitem{Mar-Apr 2021}{Deep Learning for Image Analysis}{Mines ParisTech}{Mentor to two graduate interns \\ Instructors: Etienne Decencière and David Ryckelynck}
+% \end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
